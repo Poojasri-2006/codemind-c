@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int a,b,c,d;
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    int volumeCuboid=a*b*c;
+    int volumeCube=d*d*d;
+    if(volumeCuboid>volumeCube) printf("Cuboid\n");
+    else if(volumeCube>volumeCuboid) printf("Cube\n");
+    else printf("Equal\n");
+}
